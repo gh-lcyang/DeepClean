@@ -111,6 +111,11 @@ To do this, run the script `run_train.py` from the terminal with `basic_example.
 ```sh
 python ./path/to/the/script/run_train.py basic_example.ini
 ```
-This will produce the training model and loss function in `train_dir` you have set in the `basic_example.ini`
+This will produce the training model and loss function in `train_dir` as you have set in the `basic_example.ini`
 
 ## Step 4: Cleaning
+To do this, run the script `run_clean.py` from the terminal with `basic_example.ini` as the default argument.
+```sh
+python ./path/to/the/script/run_clean.py basic_example.ini
+```
+It use the model in `train_dir` to clean the data, and produce the cleaned data in `out_dir` as you have set in the `basic_example.ini`.
