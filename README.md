@@ -2,7 +2,7 @@
 # Step 1: Download the production repo
 Download the production git-repo by running
 ```sh
-git clone git@git.ligo.org:tri.nguyen/deepclean-prod.git
+git clone https://git.ligo.org/tri.nguyen/deepclean-prod.git
 ```
 # Step 2: Set up the conda environment
 Use the setup file environment.yml which is there in the downloaded repo. Run the command
